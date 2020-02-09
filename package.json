@@ -12,6 +12,7 @@
     "react-dom": "^16.12.0"
   },
   "scripts": {
-    "start": "next"
+    "start": "next",
+    "deploy": "now"
   }
 }
