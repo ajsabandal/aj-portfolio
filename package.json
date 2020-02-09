@@ -13,7 +13,7 @@
   },
   "scripts": {
     "start": "next",
-    "deploy": "now",
+    "deploy": "now --prod",
     "now-login": "now login"
   }
 }
