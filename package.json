@@ -1,0 +1,8 @@
+{
+  "name": "aj-portfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ajsabandal/aj-portfolio.git",
+  "author": "<annamariejsabandal@gmail.com>",
+  "license": "MIT"
+}
