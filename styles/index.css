@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+
+.whole {
+    display: inline-flex;
+    width: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+
+h1 {
+    color: #3A4750;
+    font-family: 'Comfortaa', cursive;
+    font-size: 70px;
+}
+
+h2 {
+    color: #3A4750;
+    font-family: 'Comfortaa', cursive;
+    font-size: 30px;
+    font-weight: 0;
+}
+h3 {
+    font-family: 'Comfortaa', cursive;
+    display: inline-flex;
+}
+h3 a {
+    color: #3A4750;
+}
