@@ -4,7 +4,7 @@ import '../styles/index.css'
 export default function MyApp({ Component, pageProps }) {
   return (
       <>
-         {/* <Header title="AJ" /> */}
+        <Header  />
         <Component {...pageProps} />
       </>
   )

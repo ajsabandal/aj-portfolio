@@ -1,7 +1,7 @@
-export default function Header({title}) {
+export default function Header() {
     return (
       <div>
-        <h1>Header {title}</h1>
+      <img src="../images/logo.png"></img>
       </div>
     );
   }

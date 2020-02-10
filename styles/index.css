@@ -1,28 +1,39 @@
-@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
 
-.whole {
-    display: inline-flex;
-    width: 100vh;
+* {
+    margin: auto;
     padding: 0;
-    margin: 0;
+    width: 100vh;
+    justify-content: center;
+    text-align: center;
+    background-color: #E9E9E9;
+}
+
+.text-content {
+    padding-top: 150px;
 }
 
 
 h1 {
     color: #3A4750;
-    font-family: 'Comfortaa', cursive;
-    font-size: 70px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 80px;
+    font-weight: lighter;
+    text-transform: uppercase;
 }
 
 h2 {
     color: #3A4750;
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Nunito', sans-serif;
     font-size: 30px;
-    font-weight: 0;
+    font-weight: lighter;
+    text-transform: uppercase;
 }
 h3 {
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Nunito', sans-serif;
+    font-weight: lighter;
     display: inline-flex;
+    text-transform: uppercase;
 }
 h3 a {
     color: #3A4750;
