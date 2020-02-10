@@ -10,7 +10,7 @@
 }
 
 .text-content {
-    padding-top: 150px;
+    padding-top: 90px;
 }
 
 
@@ -37,4 +37,9 @@ h3 {
 }
 h3 a {
     color: #3A4750;
+}
+
+img {
+    height: 150px;
+    width: 150px;
 }

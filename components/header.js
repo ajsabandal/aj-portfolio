@@ -1,7 +1,9 @@
+import img from '../images/logo.png'
+
 export default function Header() {
     return (
       <div>
-      <img src="../images/logo.png"></img>
+        <img src={img} />
       </div>
     );
   }
