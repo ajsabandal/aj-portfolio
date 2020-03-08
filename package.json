@@ -16,5 +16,8 @@
     "start": "next",
     "deploy": "now --prod",
     "now-login": "now login"
+  },
+  "devDependencies": {
+    "@zeit/next-css": "^1.0.1"
   }
 }

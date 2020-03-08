@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oxanium&display=swap');
 
 * {
     margin: 0;
@@ -17,7 +17,7 @@
 
 h1 {
     color: #eaeaea;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Oxanium', cursive;
     font-size: 80px;
     font-weight: lighter;
     text-transform: uppercase;
@@ -26,13 +26,13 @@ h1 {
 
 h2 {
     color: #ff2e63;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Oxanium', cursive;
     font-size: 30px;
     font-weight: lighter;
     text-transform: uppercase;
 }
 h3 {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Oxanium', cursive;
     font-weight: lighter;
     display: inline-flex;
     text-transform: uppercase;
@@ -48,3 +48,19 @@ img {
     height: 120px;
     width: 120px;
 }
+
+.about-page {
+    height: 20px;
+}
+
+p {
+    color: white;
+}
+
+
+
+
+
+
+
+  
