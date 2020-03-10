@@ -55,6 +55,13 @@ img {
 
 p {
     color: white;
+    font-family: 'Oxanium', cursive;
+}
+
+.about-page {
+    justify-content: center;
+    margin: auto;
+    padding: 20px;
 }
 
 
