@@ -4,10 +4,11 @@
     margin: 0;
     padding: 0;
     background-color: #252a34;
+    font-family: 'Oxanium', cursive;
 }
 
 .text-content {
-    padding: 90px;
+    padding: 150px 0 0 0;
     margin: auto;
     justify-content: center;
     text-align: center;
@@ -17,7 +18,6 @@
 
 h1 {
     color: #eaeaea;
-    font-family: 'Oxanium', cursive;
     font-size: 80px;
     font-weight: lighter;
     text-transform: uppercase;
@@ -26,13 +26,11 @@ h1 {
 
 h2 {
     color: #ff2e63;
-    font-family: 'Oxanium', cursive;
     font-size: 30px;
     font-weight: lighter;
     text-transform: uppercase;
 }
 h3 {
-    font-family: 'Oxanium', cursive;
     font-weight: lighter;
     display: inline-flex;
     text-transform: uppercase;
@@ -55,7 +53,6 @@ img {
 
 p {
     color: white;
-    font-family: 'Oxanium', cursive;
 }
 
 .about-page {
@@ -64,6 +61,20 @@ p {
     padding: 20px;
 }
 
+.navbar {
+    justify-content: center;
+    text-align: end;
+}
+
+.navbar-list li {
+    display: inline-flex;
+    padding: 30px 40px 0px 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
 
 
 
