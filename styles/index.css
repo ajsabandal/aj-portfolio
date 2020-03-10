@@ -36,6 +36,7 @@ h3 {
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 15px;
+    padding-left: 5px;
 }
 h3 a {
     color: #08d9d6;
@@ -63,12 +64,12 @@ p {
 
 .navbar {
     justify-content: center;
-    text-align: end;
+    text-align: center;
 }
 
 .navbar-list li {
     display: inline-flex;
-    padding: 30px 40px 0px 10px;
+    padding: 50px 20px 0px 5px;
 }
 
 a {
