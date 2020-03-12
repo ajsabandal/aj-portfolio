@@ -1,6 +1,7 @@
 import Header from '../components/header'
 import Navbar from '../components/navbar'
-import Footer from '../components/footer'
+// import Footer from '../components/footer'
+// import About from '../pages/about'
 import '../styles/index.css'
 
 
@@ -10,7 +11,8 @@ export default function MyApp({ Component, pageProps }) {
         <Header  />
         <Navbar />
         <Component {...pageProps} />
-        <Footer />
+        {/* <Footer /> */}
+        {/* <About /> */}
       </>
   )
 }
