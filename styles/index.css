@@ -48,18 +48,17 @@ img {
     width: 120px;
 }
 
-.about-page {
-    height: 20px;
-}
-
 p {
     color: white;
+    font-size: 20px;
+    padding: 10px;
 }
 
 .about-page {
     justify-content: center;
     margin: auto;
-    padding: 20px;
+    padding: 100px 0 0 0;
+    width: 600px;
 }
 
 .navbar {
