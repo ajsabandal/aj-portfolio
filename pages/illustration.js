@@ -1,7 +1,10 @@
 export default function IllustrationPage() {
     return (
-        <div>
-            
-        </div>
+        <>
+            <div className="illustration-body">
+                <div className="layer-a">
+                </div>
+            </div>
+        </>
     );
 }
