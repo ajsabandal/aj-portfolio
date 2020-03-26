@@ -1,6 +1,4 @@
-import React from "react";
-import { css } from "@emotion/core";
-import ClipLoader from "react-spinners/ClipLoader";
+export default function loadingPage(){
 
 const override = css`
   display: block;
@@ -28,4 +26,5 @@ render() {
           </div>
         );
     }
+}
 }
