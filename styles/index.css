@@ -13,8 +13,8 @@
     justify-content: center;
     text-align: center;
     width: 50%;
+    height: 50vh;
 }
-
 
 h1 {
     color: #eaeaea;
@@ -59,6 +59,7 @@ p {
     margin: auto;
     padding: 100px 0 0 0;
     width: 600px;
+    height: 100vh;
 }
 
 .navbar {
