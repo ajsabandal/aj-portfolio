@@ -1,3 +1,5 @@
+import Fontawesome from '../components/fontawesome'
+
 export default function IndexPage() {
     return (
       <>
