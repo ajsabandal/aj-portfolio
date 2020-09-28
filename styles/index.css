@@ -34,13 +34,13 @@ h3 {
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 15px;
+    padding-right: 20px;
     padding-left: 5px;
 }
 h3 a {
     color: #08d9d6;
     text-decoration: none;
     letter-spacing: 2px;
-    margin-right: 10px;
     margin-top: 10px;
 }
 img {
@@ -74,4 +74,7 @@ a {
 }
 .head-footer {
     font-size: 20px;
+}
+.links {
+    display: inline-flex;
 }

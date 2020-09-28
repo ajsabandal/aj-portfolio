@@ -22,14 +22,29 @@ export default function IndexPage() {
             },
           }}>
             <h1>aj sabandal</h1>
-
             <h2>full stack web developer</h2>
-            < FontAwesomeIcon icon={faLinkedin} style={{color:'#08d9d6'}} />
-            <h3><a href="https://www.linkedin.com/in/anna-marie-joy-sabandal-899209196/">linkedin </a></h3>
-            < FontAwesomeIcon icon={faGithub} style={{color:'#08d9d6'}} />
-            <h3><a href="https://github.com/ajsabandal">github</a></h3>
-            </motion.div>  
+              <div className="links">
+                <motion.div animate="visible" whileHover={{
+                  scale: 1.3,
+                  transition: {
+                      duration: 1
+                    },
+                }}>
+                  < FontAwesomeIcon icon={faLinkedin} style={{color:'#08d9d6'}} />
+                  <h3><a href="https://www.linkedin.com/in/anna-marie-joy-sabandal-899209196/">linkedin </a></h3>
+                </motion.div>
+                <motion.div animate="visible" whileHover={{
+                  scale: 1.3,
+                  transition: {
+                    duration: 1
+                  },
+                }}>
+                  < FontAwesomeIcon icon={faGithub} style={{color:'#08d9d6'}} />
+                  <h3><a href="https://github.com/ajsabandal">github</a></h3>
+                </motion.div>
           </div>
+        </motion.div>  
+      </div>
     </>
   );
 }

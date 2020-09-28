@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+
 export default function AboutPage() {
     return (
       <>
@@ -13,7 +15,14 @@ export default function AboutPage() {
             <p>as an Web Developer, It's challenging to me but if you love what you do. You will take every challenge. You take the risk. What I love on being a Web Developer is the learning curve. You learn everyday and this is also makes me happy especially when you fix something. Sometime it takes minutes or even an hour, it almost break you but answers will just pop up! just like that.</p>
             <p>i really want to pursue programming. i want to work on environment where i can  learn more knowledge and grow as person. i want to do the best that i can to benefit the company and the team i will be part of.
             </p>
-            <h3><a href="https://drive.google.com/file/d/12CqoDxJed7KFkkXSBwiBxP_Bhs7-WLxD/view?usp=sharing">Resume</a></h3>
+            <motion.div animate="visible" whileHover={{
+                  scale: 1.1,
+                  transition: {
+                    duration: 2
+                  },
+                }}>
+              <h3><a href="https://drive.google.com/file/d/12CqoDxJed7KFkkXSBwiBxP_Bhs7-WLxD/view?usp=sharing">Resume</a></h3>
+            </motion.div>
           </div>
         </div>
       </div>
