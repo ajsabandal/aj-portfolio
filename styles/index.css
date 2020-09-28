@@ -6,7 +6,6 @@
     background-color: #252a34;
     font-family: 'Oxanium', cursive;
 }
-
 .text-content {
     padding: 150px 0 0 0;
     margin: auto;
@@ -15,20 +14,19 @@
     width: 50%;
     height: 50vh;
 }
-
 h1 {
     color: #eaeaea;
     font-size: 90px;
     font-weight: lighter;
     text-transform: uppercase;
-    letter-spacing: 5px;
+    letter-spacing: 8px;
 }
-
 h2 {
     color: #ff2e63;
     font-size: 30px;
     font-weight: lighter;
     text-transform: uppercase;
+    letter-spacing: 6px;
 }
 h3 {
     font-weight: lighter;
@@ -41,19 +39,19 @@ h3 {
 h3 a {
     color: #08d9d6;
     text-decoration: none;
+    letter-spacing: 2px;
+    margin-right: 10px;
+    margin-top: 10px;
 }
-
 img {
     height: 120px;
     width: 120px;
 }
-
 p {
     color: white;
     font-size: 15px;
     padding: 10px;
 }
-
 .about-page {
     justify-content: center;
     margin: auto;
@@ -61,28 +59,19 @@ p {
     width: 600px;
     height: 100vh;
 }
-
 .navbar {
     justify-content: center;
     text-align: center;
 }
-
 .navbar-list li {
     display: inline-flex;
     padding: 50px 20px 0px 5px;
 }
-
 a {
     color: white;
     text-decoration: none;
     font-size: 17px;
 }
-
 .head-footer {
     font-size: 20px;
 }
-
-
-
-
-  
