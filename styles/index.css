@@ -51,12 +51,14 @@ p {
     color: white;
     font-size: 15px;
     padding: 10px;
+    justify-content: center;
+    text-align: justify;
 }
 .about-page {
     justify-content: center;
     margin: auto;
     padding: 100px 0 0 0;
-    width: 600px;
+    width: 50%;
     height: 100vh;
 }
 .navbar {

@@ -1,7 +1,7 @@
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import your icons
-import { motion } from "framer-motion"
+import { motion } from "framer-motion";
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 export default function IndexPage() {
